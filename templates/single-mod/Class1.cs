@@ -1,8 +1,11 @@
 ﻿using System;
 
-namespace ClassLibrary1
+using KMod;
+
+namespace standard
 {
-    public class Class1
+    public class Class1 : UserMod2
     {
     }
 }
+
