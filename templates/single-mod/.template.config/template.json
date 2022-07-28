@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Me",
+  "classifications": [ "Common", "Code" ],
+  "identity": "oni-mod.single-project",
+  "name": "oni-mod.single-project",
+  "shortName": "oni-mod",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
