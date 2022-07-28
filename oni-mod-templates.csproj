@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>0.0.2</PackageVersion>
+        <PackageId>oni-mod.templates</PackageId>
+        <Title>oni-mod templates</Title>
+        <Authors>Me</Authors>
+        <Description>...</Description>
+        <PackageTags>dotnet-new;templates;contoso</PackageTags>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>oni_mod_templates</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+        <Compile Remove="**\*" />
+    </ItemGroup>
+
+</Project>
