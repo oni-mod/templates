@@ -1,13 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
         <PackageType>Template</PackageType>
         <PackageVersion>0.0.3</PackageVersion>
         <PackageId>oni-mod.templates</PackageId>
         <Title>oni-mod templates</Title>
-        <Authors>Me</Authors>
+        <Authors>oni-mod,undancer</Authors>
         <Description>...</Description>
-        <PackageTags>dotnet-new;templates;contoso</PackageTags>
+        <PackageTags>dotnet-new;templates;oni-mod</PackageTags>
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>oni_mod_templates</RootNamespace>
     </PropertyGroup>
