@@ -1,0 +1,9 @@
+mode: Mainline
+branches:
+  main:
+    mode: ContinuousDeployment
+    regex: main
+    tag: dev
+    increment: Patch
+ignore:
+  sha: [ ]

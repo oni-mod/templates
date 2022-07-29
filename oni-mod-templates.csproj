@@ -14,8 +14,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
-        <Compile Remove="**\*" />
+        <PackageReference Include="GitVersion.MsBuild" Version="5.6.10*">
+            <PrivateAssets>All</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**"/>
+        <Compile Remove="**\*"/>
     </ItemGroup>
 
 </Project>
