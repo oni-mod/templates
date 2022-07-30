@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
         <Deterministic>true</Deterministic>
         <NoStdLib>true</NoStdLib>
+        <AssemblyName>myself.mod</AssemblyName>
+        <RootNamespace>myself.mod</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>
